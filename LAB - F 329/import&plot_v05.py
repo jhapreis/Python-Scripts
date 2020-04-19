@@ -154,7 +154,7 @@ for i in range ( len(V) ):
     if ( len(V[i]) ) > 0:
         plt.scatter(   X[i], Y[i], label = str(V[i]) + ' ' + 'V'   )
     
-    
+
 
 plt.xlabel('eixo x'), plt.ylabel('eixo y'), plt.title('nome do gráfico'), plt.ylim(0, 18), plt.xlim(0,30), plt.grid(True)
 plt.show()                 # exibe todos os desenhos, juntos
